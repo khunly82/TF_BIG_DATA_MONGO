@@ -1,0 +1,10 @@
+ créer un collection amis
+ dans la collection amis ajouter vos 3 meilleurs amis
+  - nom
+  - prenom
+  - adresse
+
+En python se connecter à la collection amis
+pour chaque amis faire une requete vers nominatim
+pour récupérer la latitude et la longitude correspondant à l'adresse
+modifier les documents de la collection en ajouter les coordonnées
