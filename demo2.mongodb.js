@@ -111,9 +111,12 @@ db.movies.find({
 })
 
 db.movies.find(
+    // 1
     { /* filtres */ }, 
+    // 5
     { /* projection */  }
 )
+// 2
 .sort({ /* tri */
     // année croissant 
     year: 1,
@@ -121,9 +124,10 @@ db.movies.find(
     // year: -1
     title: -1
 })
-
+// 3
 // utiliser pour la pagination
 // nombre à passer
 .skip(2)
 // nombre maximum
+// 4
 .limit(2)
